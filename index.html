@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InjuryCalc - Free Injury Settlement Calculators</title>
+    <meta name="description" content="Free injury settlement calculators. Estimate personal injury, car accident, and workers compensation settlements.">
+    <link rel="canonical" href="https://injurycalc.xyz/">
+    <meta property="og:title" content="InjuryCalc - Free Injury Settlement Calculators">
+    <meta property="og:description" content="Free injury settlement calculators. Estimate personal injury, car accident, and workers compensation settlements.">
+    <meta property="og:url" content="https://injurycalc.xyz/">
+    <meta property="og:type" content="website">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #fff;
+        }
+        .header {
+            background: rgba(0,0,0,0.3);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #dc2626;
+            text-decoration: none;
+        }
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #dc2626, #fff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero p {
+            font-size: 1.25rem;
+            color: #94a3b8;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .search-box {
+            max-width: 500px;
+            margin: 2rem auto;
+            position: relative;
+        }
+        .search-box input {
+            width: 100%;
+            padding: 1rem 1.5rem;
+            font-size: 1rem;
+            border: 2px solid rgba(255,255,255,0.1);
+            border-radius: 50px;
+            background: rgba(255,255,255,0.05);
+            color: #fff;
+            outline: none;
+        }
+        .search-box input:focus {
+            border-color: #dc2626;
+        }
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1rem;
+            padding: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .tool-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            text-decoration: none;
+            color: #fff;
+            transition: all 0.2s;
+        }
+        .tool-card:hover {
+            background: rgba(255,255,255,0.1);
+            border-color: #dc2626;
+            transform: translateY(-2px);
+        }
+        .tool-icon {
+            font-size: 1.5rem;
+        }
+        .tool-name {
+            font-weight: 500;
+        }
+        .stats {
+            text-align: center;
+            padding: 2rem;
+            color: #94a3b8;
+        }
+        .ad-banner {
+            text-align: center;
+            padding: 1rem;
+            margin: 1rem auto;
+            max-width: 728px;
+        }
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: #64748b;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="logo">InjuryCalc</a>
+        <span>28 Free Calculators</span>
+    </header>
+
+    <!-- Top Ad -->
+    <div class="ad-banner">
+        <script async="async" data-cfasync="false" src="https://www.highperformanceformat.com/ee368c7cdf94f06bc71fdf57fe4124b8/invoke.js"></script>
+        <div id="container-ee368c7cdf94f06bc71fdf57fe4124b8"></div>
+    </div>
+
+    <section class="hero">
+        <h1>Free Injury Settlement Calculators</h1>
+        <p>Free injury settlement calculators. Estimate personal injury, car accident, and workers compensation settlements.</p>
+        <div class="search-box">
+            <input type="text" id="search" placeholder="Search 28 calculators..." onkeyup="filterTools()">
+        </div>
+    </section>
+
+    <div class="stats">
+        <strong>28</strong> free calculators • No signup required • 100% free
+    </div>
+
+    <main class="tools-grid" id="tools-grid">
+        
+            <a href="alimony-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Alimony Calculator</span>
+            </a>
+            <a href="anesthesia-error-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Anesthesia Error Calculator</span>
+            </a>
+            <a href="asbestos-trust-fund-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Asbestos Trust Fund Calculator</span>
+            </a>
+            <a href="birth-injury-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Birth Injury Calculator</span>
+            </a>
+            <a href="cancer-misdiagnosis-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Cancer Misdiagnosis Calculator</span>
+            </a>
+            <a href="car-accident-settlement-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Car Accident Settlement Calculator</span>
+            </a>
+            <a href="cerebral-palsy-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Cerebral Palsy Calculator</span>
+            </a>
+            <a href="child-support-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Child Support Calculator</span>
+            </a>
+            <a href="disability-insurance-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Disability Insurance Calculator</span>
+            </a>
+            <a href="divorce-settlement-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Divorce Settlement Calculator</span>
+            </a>
+            <a href="dog-bite-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Dog Bite Calculator</span>
+            </a>
+            <a href="erb-palsy-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Erb Palsy Calculator</span>
+            </a>
+            <a href="lawsuit-settlement-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Lawsuit Settlement Calculator</span>
+            </a>
+            <a href="medical-malpractice-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Medical Malpractice Calculator</span>
+            </a>
+            <a href="mesothelioma-settlement-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Mesothelioma Settlement Calculator</span>
+            </a>
+            <a href="misdiagnosis-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Misdiagnosis Calculator</span>
+            </a>
+            <a href="motorcycle-accident-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Motorcycle Accident Calculator</span>
+            </a>
+            <a href="nursing-home-abuse-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Nursing Home Abuse Calculator</span>
+            </a>
+            <a href="personal-injury-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Personal Injury Calculator</span>
+            </a>
+            <a href="probate-cost-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Probate Cost Calculator</span>
+            </a>
+            <a href="product-liability-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Product Liability Calculator</span>
+            </a>
+            <a href="slip-and-fall-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Slip And Fall Calculator</span>
+            </a>
+            <a href="structured-settlement-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Structured Settlement Calculator</span>
+            </a>
+            <a href="surgical-error-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Surgical Error Calculator</span>
+            </a>
+            <a href="truck-accident-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Truck Accident Calculator</span>
+            </a>
+            <a href="va-disability-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Va Disability Calculator</span>
+            </a>
+            <a href="workers-comp-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Workers Comp Calculator</span>
+            </a>
+            <a href="wrongful-death-calculator.html" class="tool-card">
+                <span class="tool-icon">📊</span>
+                <span class="tool-name">Wrongful Death Calculator</span>
+            </a>
+    </main>
+
+    <!-- Bottom Ad -->
+    <div class="ad-banner">
+        <script async="async" data-cfasync="false" src="https://www.highperformanceformat.com/b43e7cf5057864a264961884e1f34530/invoke.js"></script>
+        <div id="container-b43e7cf5057864a264961884e1f34530"></div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 InjuryCalc. All calculators are free to use.</p>
+    </footer>
+
+    <script>
+        function filterTools() {
+            const search = document.getElementById('search').value.toLowerCase();
+            const cards = document.querySelectorAll('.tool-card');
+            cards.forEach(card => {
+                const name = card.querySelector('.tool-name').textContent.toLowerCase();
+                card.style.display = name.includes(search) ? 'flex' : 'none';
+            });
+        }
+    </script>
+</body>
+</html>
